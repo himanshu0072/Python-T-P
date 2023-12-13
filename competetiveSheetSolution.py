@@ -22,12 +22,26 @@
 # approach without using recurusion
 
 
-def factorial(n):
-    fact = 1
-    for i in range(1, n):
-        fact = fact + fact * i
-    return fact
+# def factorial(n):
+#     fact = 1
+#     for i in range(1, n):
+#         fact = fact + fact * i
+#     return fact
 
 
-n = int(input("Enter a number to calculate factorial:"))
-print(f"The factorial of {n} is {factorial(n)}")
+# n = int(input("Enter a number to calculate factorial:"))
+# print(f"The factorial of {n} is {factorial(n)}")
+
+'''
+
+3. Reverse a String: Write a program that reverses a given string.
+
+'''
+
+
+def reverseString(string):
+    return string[::-1]
+
+
+string = input("Enter a string you want to reverse:")
+print(f"Reversed String = {reverseString(string)}")
