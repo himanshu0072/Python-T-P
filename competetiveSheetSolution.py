@@ -39,9 +39,37 @@
 '''
 
 
-def reverseString(string):
-    return string[::-1]
+# def reverseString(string):
+#     return string[::-1]
 
 
-string = input("Enter a string you want to reverse:")
-print(f"Reversed String = {reverseString(string)}")
+# string = input("Enter a string you want to reverse:")
+# print(f"Reversed String = {reverseString(string)}")
+
+
+'''
+
+4.Check for Prime Numbers: Develop a function that checks if a number is prime or not.
+
+'''
+
+
+# def checkPrime(n):
+#     if n < 1:
+#         return "no"
+#     elif n % 1 == 0 and n % n == 0 and n % 2 != 0 and n % 3 != 0:
+#         return "yes"
+#     else:
+#         return "no"
+
+
+# n = int(input("Enter a number to check it is prime or not:"))
+# print(checkPrime(n))
+
+
+'''
+
+5. 
+
+
+'''
